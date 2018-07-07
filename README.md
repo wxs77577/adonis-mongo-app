@@ -13,7 +13,10 @@ This is the boilerplate for creating an API server in AdonisJs, it comes pre-con
 Use the adonis command to install the blueprint
 
 ```bash
-adonis new yardstick --api-only
+adonis new api-server --blueprint wxs77577/adonis-mongo-app
+
+# or use `--cnpm`
+adonis new api-server --blueprint wxs77577/adonis-mongo-app --cnpm
 ```
 
 or manually clone the repo and then run `npm install`.

@@ -1,8 +1,8 @@
 {
-  "name": "adonis-api-app",
+  "name": "adonis-mongo-app",
   "version": "4.1.0",
   "adonis-version": "4.1.0",
-  "description": "Adonisjs boilerplate for API server with pre-configured JWT",
+  "description": "Adonisjs + MongoDB boilerplate for API server with pre-configured JWT",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
@@ -23,7 +23,9 @@
     "@adonisjs/fold": "^4.0.8",
     "@adonisjs/framework": "^5.0.7",
     "@adonisjs/ignitor": "^2.0.6",
-    "@adonisjs/lucid": "^5.0.4"
+    "@adonisjs/lucid": "^5.0.4",
+    "@adonisjs/validator": "^5.0.3",
+    "lucid-mongo": "^3.1.0"
   },
   "devDependencies": {},
   "autoload": {
